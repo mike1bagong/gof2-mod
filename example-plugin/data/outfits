@@ -57,11 +57,11 @@ outfit "128MJ Multirail"
 		"submunition" "gbullet"
 		"cluster"
 		"hit effect" "bullet impact"
-	description `Although ceased from production by manufacturers for the high instability of the weapon, the 128MJ Multirail has been recreated by clever inventors with several improvements to the hardware, decreasing the chance of an explosion. The improvements and bankruptsy of the manufacturers allowed it to be in the market without legal action.`
+	description `Although ceased from production by manufacturers for the high instability of the weapon, the 128MJ Multirail has been recreated by clever inventors with several improvements to the hardware, decreasing the chance of an explosion. The improvements and bankruptsy of the manufacturers allowed it to be in the market without legal issue.`
 
-outfit "128mjbullet"
+outfit "128mj_railgun"
 	weapon
-		sprite "projectile/128mj_bullet"
+		sprite "projectile/128mj_railgun"
 			"delay" 5
 			"random start frame"
 			"frame rate" 0
