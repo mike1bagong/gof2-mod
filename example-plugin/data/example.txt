@@ -97,7 +97,6 @@ ship "Teneta R.E.D."
 			"hull damage" 700
 			"hit force" 2100
 	outfits
-
 		
 	gun 47.5 -254
 	gun -47.5 -254
@@ -111,3 +110,4 @@ ship "Teneta R.E.D."
 	explode "small explosion" 20
 	"final explode" "final explosion small"
 	description `Similar to the Argosy, the Teneta has became a favorite among trigger-happy traders with its large cargospace and impressive firepower. This version, engineered by leading Terran ship-builders, was built to combat the Vossk's growing arms race.
+shipyard "Basic Ships"
