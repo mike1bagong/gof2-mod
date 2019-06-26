@@ -22,3 +22,53 @@ outfit "Berger Retribution"
 		"hull damage" 112
 		"heat damage" 30
  	description "The well-known myth that the Berger Retribution was an attempt to remedy the infamously slow reload times of the Converge series by having two barrels was a lie. In reality, the Berger company used two barrels to balance heat distribution. The myth was spread so well throughout the galaxy that the Berger company had to spend millions of credits to inform the truth of the unusual design."
+outfit "Railgun Ammo"
+	plural "Railgun Ammo"
+	category "Ammunition"
+	cost 12
+	thumbnail "outfit/bullet"
+	"mass" .002
+	"gatling round capacity" -1
+	description "Ballistic weapons are popular in this universe with the significant advancements in railgun technology. The demand for rails has gotten so bad that they are sold and directly made from raw materials harvested from asteroids in vending machines."
+
+outfit "128MJ Multirail"
+	category "Secondary Weapons"
+	cost 25000
+	thumbnail "outfit/128_railgun"
+	"mass" 2
+	"outfit space" -20
+	"weapon capacity" -20
+	"gun ports" -1
+	"gatling round capacity" 1000
+	weapon
+		sprite "projectile/tinyflare"
+			"random start frame"
+		sound "explosion tiny"
+		ammo "Railgun Ammo"
+		icon "icon/gat"
+		"inaccuracy" 1
+		"velocity" 1
+		"lifetime" 10
+		"reload" 12
+		"burst count" 3
+		"burst reload" 0.5
+		"firing energy" 4
+		"firing heat" 40
+		"submunition" "gbullet"
+		"cluster"
+		"hit effect" "bullet impact"
+	description `Although ceased from production by manufacturers for the high instability of the weapon, the 128MJ Multirail has been recreated by clever inventors with several improvements to the hardware, decreasing the chance of an explosion. The improvements and bankruptsy of the manufacturers allowed it to be in the market without legal action.`
+
+outfit "128mjbullet"
+	weapon
+		sprite "projectile/128mj_bullet"
+			"delay" 5
+			"random start frame"
+			"frame rate" 0
+		"velocity" 12
+		"lifetime" 20
+		"random lifetime" 5
+		"shield damage" 18
+		"hull damage" 18
+		"hit force" 2
+		"hit effect" "bullet impact"
