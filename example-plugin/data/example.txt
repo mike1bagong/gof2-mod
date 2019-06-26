@@ -72,3 +72,42 @@ ship Exemplar
 # shipyard definition should be the keyword "clear".
 shipyard "Basic Ships"
 	"Exemplar"
+
+ship "Teneta R.E.D."
+	sprite "ship/teneta"
+	thumbnail "thumbnail/teneta"
+	attributes
+		category "Light Warship"
+		"cost" 1600000000
+		"shields" 0
+		"hull" 8000
+		"required crew" 1
+		"bunks" 16
+		"mass" 300
+		"drag" 3.8
+		"heat dissipation" .65
+		"fuel capacity" 600
+		"cargo space" 70
+		"outfit space" 360
+		"weapon capacity" 132
+		"engine capacity" 94
+		weapon
+			"blast radius" 140
+			"shield damage" 1400
+			"hull damage" 700
+			"hit force" 2100
+	outfits
+
+		
+	gun 47.5 -254
+	gun -47.5 -254
+	gun 308.5 11
+	gun -308.5 11
+	engine 167 312
+	engine -167 312
+	engine 0 307.5
+	turret 0 142.5
+	explode "tiny explosion" 40
+	explode "small explosion" 20
+	"final explode" "final explosion small"
+	description `Similar to the Argosy, the Teneta has became a favorite among trigger-happy traders with its large cargospace and impressive firepower. This version, engineered by leading Terran ship-builders, was built to combat the Vossk's growing arms race.
