@@ -26,10 +26,10 @@ outfit "Railgun Ammo"
 	plural "Railgun Ammo"
 	category "Ammunition"
 	cost 12
-	thumbnail "outfit/bullet"
+	thumbnail "outfit/ra9ils"
 	"mass" .002
 	"gatling round capacity" -1
-	description "Ballistic weapons are popular in this universe with the significant advancements in railgun technology. The demand for rails has gotten so bad that they are sold and directly made from raw materials harvested from asteroids in vending machines."
+	description "Ballistic weapons are popular in this universe with the significant advancements in railgun technology. The demand for rails has gotten so bad that they are sold and directly made in vending machines."
 
 outfit "128MJ Multirail"
 	category "Secondary Weapons"
@@ -52,16 +52,17 @@ outfit "128MJ Multirail"
 		"reload" 12
 		"burst count" 3
 		"burst reload" 0.5
+		"cluster"
 		"firing energy" 4
 		"firing heat" 40
-		"submunition" "gbullet"
+		"submunition" "rail"
 		"cluster"
 		"hit effect" "bullet impact"
-	description `Although ceased from production by manufacturers for the high instability of the weapon, the 128MJ Multirail has been recreated by clever inventors with several improvements to the hardware, decreasing the chance of an explosion. The improvements and bankruptsy of the manufacturers allowed it to be in the market without legal issue.`
+	description `Although ceased from production by manufacturers for the high instability of the weapon, the 128MJ Multirail has been recreated by clever inventors with several improvements to the hardware, decreasing the chance of an explosion. The improvements and bankruptsy of the manufacturers allowed it to be on the market without legal issue.`
 
-outfit "128mj_railgun"
+outfit "rail"
 	weapon
-		sprite "projectile/128mj_railgun"
+		sprite "projectile/rail"
 			"delay" 5
 			"random start frame"
 			"frame rate" 0
@@ -72,3 +73,31 @@ outfit "128mj_railgun"
 		"hull damage" 18
 		"hit force" 2
 		"hit effect" "bullet impact"
+
+outfit "HH-AT Archimedes"
+    category "Turrets"
+    cost 1550000
+    thumbnail "outfit/hh-at"
+    "mass" 40
+    "outfit space" -40
+    "weapon capacity" -40
+    "required crew" 0
+    "turret mounts" -1
+    weapon
+        sprite "projectile/plasma"
+            "frame rate" 12
+        "hardpoint sprite" "hardpoint/hh-at_hardpoint"
+        "hardpoint offset" 18.
+        sound "plasma"
+        "hit effect" "plasma explosion"
+        "inaccuracy" 0
+        "turret turn" 4
+        "velocity" 50
+        "lifetime" 15
+        "reload" 9
+        "firing energy" 6
+        "firing heat" 40
+        "shield damage" 40
+        "hull damage" 40
+        "heat damage" 15
+    description "Finally released to the public, the HH-AT "Archimedes" has various pieces of hardware obtained from recycling H'nookk blasters and Hammerhead D1s. However, most of the D1's hardware remains unused, only taking the shell of the turret and completely reconfiguring the H'nook's power usage."
