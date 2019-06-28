@@ -7,6 +7,18 @@ outfit "Yin Co. Shadow Ninja"
 	"cloak" .5
 	"cloaking energy" 0.2
 	"cloaking fuel" 1
-    description "Stealth generators have been a staple for merchants and pirates for their various uses, from a quick escape to a unexpected ambush. Dr. Kobus Mutkin's Yin Co. stealth generator completely revolutionizes the previous function of stealth generators, allowing ships to stay cloaked for hours. However, the generator has a long start up, loosing the appeal for merchants escaping ambushes and appealing only to mercenaries awaiting long ambushes.
-    
-    
+	description "Stealth generators have been a staple for merchants and pirates for their various uses, from a quick escape to a unexpected ambush. Dr. Kobus Mutkin's Yin Co. stealth generator completely revolutionizes the previous function of stealth generators, allowing ships to stay cloaked for hours. However, the generator has a long start up, loosing the appeal for merchants escaping ambushes and appealing only to mercenaries awaiting long ambushes."
+	
+outfit "Hiroto Ultrascan"
+	category "Systems"
+	thumbnail "outfit/ultrascan"
+	cost 750000000
+	"mass" 12
+	"outfit space" -12
+	"cargo scan power" 20
+	"cargo scan speed" 1
+	"outfit scan power" 20
+	"outfit scan speed" 1
+	"tactical scan power" 74
+	"asteroid scan power" 40
+	description "Some people say that all of the options of scanning are unnecessary and you're better off to buy the less expensive Proscan, but miners will swear to the superior asteroid scanning."
