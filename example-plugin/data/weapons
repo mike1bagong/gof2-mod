@@ -1,7 +1,7 @@
 outfit "Berger Retribution"
 	category "Guns"
 	cost 36500
-	thumbnail "outfit/berger_retribution"
+	thumbnail "outfit/retribution"
 	"mass" 30
 	"outfit space" -30
 	"weapon capacity" -30
@@ -26,7 +26,7 @@ outfit "Railgun Ammo"
 	plural "Railgun Ammo"
 	category "Ammunition"
 	cost 12
-	thumbnail "outfit/ra9ils"
+	thumbnail "outfit/rails"
 	"mass" .002
 	"gatling round capacity" -1
 	description "Ballistic weapons are popular in this universe with the significant advancements in railgun technology. The demand for rails has gotten so bad that they are sold and directly made in vending machines."
@@ -45,7 +45,7 @@ outfit "128MJ Multirail"
 			"random start frame"
 		sound "explosion tiny"
 		ammo "Railgun Ammo"
-		icon "icon/gat"
+		icon "icon/128mj"
 		"inaccuracy" 1
 		"velocity" 1
 		"lifetime" 10
@@ -62,7 +62,7 @@ outfit "128MJ Multirail"
 
 outfit "rail"
 	weapon
-		sprite "projectile/rail"
+		sprite "projectile/rail_p"
 			"delay" 5
 			"random start frame"
 			"frame rate" 0
